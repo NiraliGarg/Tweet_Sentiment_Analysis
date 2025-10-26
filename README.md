@@ -31,7 +31,7 @@ It involves:
 # 🚀 Steps in the Project
 
 **💾 Dataset Fetching**
-!kaggle datasets download -d kazanova/sentiment140
+- !kaggle datasets download -d kazanova/sentiment140
 
 **🧹 Data Cleaning & Preprocessing**
 - Removed URLs, mentions, hashtags, and special characters  
