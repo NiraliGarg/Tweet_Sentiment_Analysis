@@ -30,26 +30,26 @@ It involves:
 
 # 🚀 Steps in the Project
 
-**Dataset Fetching**
+**💾 Dataset Fetching**
 !kaggle datasets download -d kazanova/sentiment140
 
-# 🧹 Data Cleaning & Preprocessing
+**🧹 Data Cleaning & Preprocessing**
 - Removed URLs, mentions, hashtags, and special characters  
 - Converted text to lowercase  
 - Tokenized and stemmed words using **NLTK**
 
-# 🔠 Feature Extraction
+**🔠 Feature Extraction**
 - Transformed cleaned tweets into numerical form using **TF-IDF Vectorization**
 
-# 🧩 Model Training
+**🧩 Model Training**
 - Trained a **Logistic Regression** model on labeled tweet data  
 - Split dataset into **training and test sets** for performance evaluation
 
-# 📈 Evaluation
+**📈 Evaluation**
 - Checked **accuracy, precision, recall, and F1-score**  
 - Analyzed **confusion matrix** for detailed insights
 
-# 🤖 Prediction
+**🤖 Prediction**
 - Tested the model on custom input tweets to predict sentiment in real time
 
 
